@@ -3,8 +3,11 @@ class Dog(object):
 		self.name = name
 		self.age = age
 
-	def describe(self, bark):
+	def bark(self, bark):
 		print(bark)
+
+	def walk(self, speed):
+		print("I'm walking at",speed, "mph")
 
 	def __str__(self):
 		return 'Instance of Dog'
